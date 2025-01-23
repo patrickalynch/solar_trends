@@ -1,6 +1,6 @@
 # Residential Solar PV Installation Trends in Massachusetts
 ## Introduction
-This project shows the trends in the installation of solar photovoltaics throughout the various counties in MA. The purpose is to evaluate how the economic turmoil caused by the COVID-19 pandemic affected solar installation trends, in order to inform public policy and the renewable energy industry moving forward in their decision making and planning.
+This project shows the trends in the installation of solar photovoltaics throughout the various counties in MA. The purpose is to evaluate how the economic turmoil caused by the COVID-19 pandemic affected solar installation trends in Massachusetts, in order to inform public policy and the renewable energy industry moving forward in their decision making and planning. 
 
 ## Data
 
@@ -34,3 +34,38 @@ Column | Description
 
 File | Description | Source
 -------|------------|-------
+MA_med_age.csv | Population data on the county level in MA in 2021 | data.census.gov
+MA_med_inc.csv | Income data on the county level in MA in 2021 | data.census.gov
+SMART_Solar_Tariff_Generation_Units.csv | Installation data from solar photovoltaic systems under the SREC I incentive program in MA (2018-2023) | mass.gov
+Solar_Carve-Out_Qualified_Units.csv | Installation data from solar photovoltaic systems under the SREC I incentive program in MA (2010-2013) | mass.gov
+Solar_Carve-Out II_Renewable_Generation_Units.csv | Installation data from solar photovoltaic systems under the SREC II incentive program in MA (2013-2018) | mass.gov
+barnstable_unemp_rate.csv | Monthly unemployment rate in Barnstable County from 1990-2022 | fred.stlouisfed.org
+barnstable_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Barnstable County from 1990-2022 | fred.stlouisfed.org
+berkshire_unemp_rate.csv | Monthly unemployment rate in Berkshire County from 1990-2022 | fred.stlouisfed.org
+berkshire_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Berkshire County from 1990-2022 | fred.stlouisfed.org
+bristol_unemp_rate.csv | Monthly unemployment rate in Bristol County from 1990-2022 | fred.stlouisfed.org
+bristol_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Bristol County from 1990-2022 | fred.stlouisfed.org
+dukes_unemp_rate.csv | Monthly unemployment rate in Dukes County from 1990-2022 | fred.stlouisfed.org
+dukes_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Dukes County from 1990-2022 | fred.stlouisfed.org
+essex_unemp_rate.csv | Monthly unemployment rate in Essex County from 1990-2022 | fred.stlouisfed.org
+essex_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Essex County from 1990-2022 | fred.stlouisfed.org
+franklin_unemp_rate.csv | Monthly unemployment rate in Franklin County from 1990-2022 | fred.stlouisfed.org
+franklin_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Franklin County from 1990-2022 | fred.stlouisfed.org
+hampden_unemp_rate.csv | Monthly unemployment rate in Hampden County from 1990-2022 | fred.stlouisfed.org
+hampden_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Hampden County from 1990-2022 | fred.stlouisfed.org
+hampshire_unemp_rate.csv | Monthly unemployment rate in Hampshire County from 1990-2022 | fred.stlouisfed.org
+hampshire_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Hampshire County from 1990-2022 | fred.stlouisfed.org
+middlesex_unemp_rate.csv | Monthly unemployment rate in Middlesex County from 1990-2022 | fred.stlouisfed.org
+middlesex_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Middlesex County from 1990-2022 | fred.stlouisfed.org
+nantucket_unemp_rate.csv | Monthly unemployment rate in Nantucket County from 1990-2022 | fred.stlouisfed.org
+nantucket_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Nantucket County from 1990-2022 | fred.stlouisfed.org
+norfolk_unemp_rate.csv | Monthly unemployment rate in Norfolk County from 1990-2022 | fred.stlouisfed.org
+norfolk_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Norfolk County from 1990-2022 | fred.stlouisfed.org
+plymouth_unemp_rate.csv | Monthly unemployment rate in Plymouth County from 1990-2022 | fred.stlouisfed.org
+plymouth_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Plymouth County from 1990-2022 | fred.stlouisfed.org
+solar_trends.R | Code that imports, cleans, and analyzes economic and social data to inform a conclusion on the impact of an economic downturn on the installation rate of solar photovoltaic systems | Created by Patrick Lynch
+suffolk_unemp_rate.csv | Monthly unemployment rate in Suffolk County from 1990-2022 | fred.stlouisfed.org
+suffolk_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Suffolk County from 1990-2022 | fred.stlouisfed.org
+worcester_unemp_rate.csv | Monthly unemployment rate in Worcester County from 1990-2022 | fred.stlouisfed.org
+worcester_unemp_rate_ANNUAL.csv | Annual average unemployment rate in Worcester County from 1990-2022 | fred.stlouisfed.org
+zips_towns_counties.csv | Zip codes for every town/city in MA, including the county for each town/city | zip-codes.com
