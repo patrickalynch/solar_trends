@@ -2,6 +2,15 @@
 ## Introduction
 This project shows the trends in the installation of solar photovoltaics throughout the various counties in MA. The purpose is to evaluate how the economic turmoil caused by the COVID-19 pandemic affected solar installation trends in Massachusetts, in order to inform public policy and the renewable energy industry moving forward in their decision making and planning. 
 
+## Analysis
+All of the analysis is completed in the `solar_trends.R` file. This project includes a variety of different coding and statistical techniques, such as:
+* importing and cleaning raw data from multiple different sources
+* Joining data tables to facilitate analysis
+* Exploring the data using visual and numerical techniques
+* Performing a multiple regression analysis and comparing models to find the best combination of goodness-of-fit and parsimony
+* Using diagnostic methods to recognize and account for potentially skewed results (outliers, multicollinearity, etc.)
+* Using all of the given information to draw a conclusion
+
 ## Data
 
 ### Variables
